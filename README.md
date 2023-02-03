@@ -1,1 +1,1 @@
-# main_js
+# Rock, Paper , Scissors game
