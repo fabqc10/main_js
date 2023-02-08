@@ -7,10 +7,25 @@
     <title>Document</title>
 </head>
 <body>
-    <h3 style="justify-content: center;align-items: center; display: flex;">Welcome to ROCK, PAPER, SCISSORS</h3>
-    <div style="justify-content: center;align-items: center; display: flex;">
-        <button  onclick="game()">Start Game</button>
+    <h1>WELCOME TO ROCK, PAPER, SCISSORS GAME</h3>
+
+    <h3>Score</h3>
+
+    <div class="scoreContainer">
+        <p> You: <span class="playerScore"> 0 </span> </p>
+        <p> Compunter: <span class="computerScore"> 0 </span> </p>
+        <p> Ties: <span class="ties"> 0 </span></p>
     </div>
+
+    <h3 class="result"></h3>
+    <h2 class="winner"></h2>
+
+    <div class="buttons">
+        <button id="rockBtn" value="rock"> rock </button>
+        <button id="paperBtn" value="paper"> paper </button>
+        <button id="scissorsBtn" value="scissors"> scissors </button>
+    </div>
+    
     <script src="main.js"></script>
 </body>
 </html>
